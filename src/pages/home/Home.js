@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from '../../components/layouts/Layout'
 import { Container, Row, Col } from "react-bootstrap";
-import Kebab from "../../assets/kebab.webp";
+import Kebab from "../../assets/kebab.png";
 import { Link } from 'react-router-dom';
 import "../../styles/HomeStyle.css";
 
