@@ -1,0 +1,150 @@
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin: .5rem;
+    padding: 1rem;
+    background-color: #fff;
+  }
+  
+  .cart-item-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .cart-item-image {
+    width: 80px;
+    max-width: 100px;
+    border-radius: 8px;
+    margin-right: 1rem;
+  }
+  
+  .cart-item-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap; 
+  }
+  
+  .cart-item-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto; 
+  }
+  
+  .cart-item-name h5 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .cart-item-price h6 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #666;
+  }
+  
+  .cart-item-controls {
+    display: flex;
+    align-items: center;
+    flex: 0 1 auto;
+  }
+  
+  .cart-item-button-remove {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #DADADA;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .cart-item-button-remove:hover {
+    transform: scale(1.05); 
+  }
+
+  .cart-item-button-remove svg {
+    font-size: 1.5rem;
+    font-weight: 1000;
+  }
+
+  .cart-item-button-add {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--yellow);
+    color: var(--bg-coffee);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .cart-item-button-add:hover {
+    transform: scale(1.05); 
+  }
+
+  .cart-item-button-add svg {
+    font-size: 1.5rem;
+    font-weight: 1000;
+  }
+  
+  .cart-item-quantity {
+    margin: 0 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  @media (max-width: 768px) {
+    .cart-item-content {
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    .cart-item-image {
+      max-width: 60px;
+      margin-right: 0.5rem;
+    }
+  
+    .cart-item-details {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      width: calc(100% - 70px); 
+    }
+  
+    .cart-item-info {
+      flex-grow: 1;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .cart-item-name {
+      margin: 0;
+      font-size: 1rem;
+      font-weight: 600;
+    }
+  
+    .cart-item-price {
+      font-size: 0.9rem;
+      font-weight: 600;
+      margin-right: 2rem;
+    }
+  
+    .cart-item-controls {
+      flex-shrink: 0;
+      margin-left: auto;
+    }
+  }
+  

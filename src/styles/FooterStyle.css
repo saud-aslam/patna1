@@ -1,0 +1,89 @@
+/* Home Footer 9.0 */
+footer {
+    padding-top: 80px;
+    background-color: #fff; /* Add your desired background color here */
+  }
+  
+  footer h5 {
+    color: var(--light-black);
+    line-height: 1;
+    margin-bottom: 25px;
+  }
+  
+  footer p {
+    margin-bottom: 3px;
+    font-size: 1rem;
+  }
+  
+  footer .calling {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: var(--yellow);
+  }
+  
+  footer ul li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 1.4rem;
+    cursor: pointer;
+  }
+  
+  footer .copy_right {
+    border-top: 1px solid var(--light-grey-2);
+    margin-top: 60px;
+    padding: 20px 0;
+  }
+  
+  footer .copy_right ul li span {
+    color: var(--light-red);
+    font-weight: 600;
+  }
+  
+  footer .copy_right ul li {
+    font-size: 1rem;
+    padding: 0 10px;
+    position: relative;
+  }
+  
+  footer .copy_right ul li:after {
+    content: "|";
+    padding-left: 11px;
+    position: absolute;
+    top: -1px;
+    right: -10px;
+  }
+  
+  footer .copy_right ul li:last-child:after {
+    display: none;
+  }
+  
+  footer a {
+    color: inherit; /* Inherit color from parent element */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  footer a:hover {
+    text-decoration: underline; /* Optionally, add underline on hover */
+  }
+  
+  /* Scroll Top */
+  .scroll_top {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 99;
+    cursor: pointer;
+    width: 2.7rem;
+    height: 2.7rem;
+    line-height: 3rem;
+    text-align: center;
+    background: var(--light-red);
+    border-radius: 10%;
+  }
+  
+  .scroll_top i {
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--white);
+  }
+  
